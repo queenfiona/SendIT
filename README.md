@@ -6,3 +6,6 @@ Should enable users to login
 
 # Starting admin feature
 Should enable admin to change status and current location of a parcel delivery order
+
+# Starting parcel delivery order feature
+Should enable the user to make a parcel delivery order 
