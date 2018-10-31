@@ -9,3 +9,6 @@ Should enable admin to change status and current location of a parcel delivery o
 
 # Starting parcel delivery order feature
 Should enable the user to make a parcel delivery order 
+
+# Starting landing page feature
+User should see this page when they navigate to SendIT's web address
