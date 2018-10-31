@@ -3,3 +3,6 @@ SendIT is a courier service that helps users deliver parcels to different destin
 
 # Starting login feature
 Should enable users to login
+
+# Starting admin feature
+Should enable admin to change status and current location of a parcel delivery order
