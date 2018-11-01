@@ -25,6 +25,16 @@ a{
 	text-decoration: none;
 }
 
+.active{
+	color: #640200;
+}
+
+.info{
+	text-decoration: none;
+	color: #0099cc;
+}
+
+
 /*Header*/
 header{
 	background: #ffffff;
@@ -73,13 +83,10 @@ header a:hover{
 	font-weight: bold;
 }
 
-header a:visited{
+/*header a:visited{
 	color: #885ead;	
 }
-
-header a:active{
-	color: #e8491d;
-}
+*/
 
 @font-face{
 	font-family:logoFont;
