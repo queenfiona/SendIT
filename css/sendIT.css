@@ -17,6 +17,10 @@ ul #card{
 	padding:0;
 }
 
+.active{
+	color: #640200;
+}
+
 /*Header*/
 header{
 	background: #ffffff;
@@ -40,12 +44,15 @@ header li{
 }
 
 header #logo{
-	float: left;	
+	float: left;
+	font-family: logoFont;
+	font-weight: bold;
+	color:#ff0090;		
 }
 
 header nav{
 	float: right;
-	margin-top: 10px;
+	margin-top:auto;
 }
 
 /*header .active_page a{
@@ -58,12 +65,23 @@ header a:hover{
 	font-weight: bold;
 }
 
-header a:visited{
+/*header a:visited{
 	color: #885ead;	
-}
+}*/
 
 header a:active{
 	color: #e8491d;
+}
+
+@font-face{
+	font-family:logoFont;
+	src:url('../font/Gentleman-PersonalUse.ttf');
+	padding:0;
+	margin: 0;		
+}
+
+header h1{
+	margin: auto;
 }
 
 /*content*/
@@ -131,6 +149,8 @@ footer{
 	color: #ffffff;
 	background-color: #4d4d4d;
 	text-align:center;
+	left: 0;
+	bottom:0;
 }
 
 /*Media queries*/
