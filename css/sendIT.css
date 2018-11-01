@@ -17,6 +17,14 @@ ul #card{
 	padding:0;
 }
 
+form {
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
+
 /*Header*/
 header{
 	background: #ffffff;
@@ -103,7 +111,7 @@ header a:active{
 }
 
 #card input[type='submit']{
-	position: center;
+	/*position: center;*/
 	background-color: #007E33;
 	border-radius: 25px;
 }
@@ -117,10 +125,20 @@ header a:active{
 	width:220px;
 }
 #card h1{	
-    font-size: 40px;  
-    display: block;
-    width: 100%;           
+    font-size: 40px;
+    margin: 0;
+    padding: 0;           
 }
+
+#membership{
+	color: #0099cc;
+}
+
+#forgotPassword{
+	float: right;
+	color: #0099cc;
+}
+
 
 /*footer*/
 footer{
@@ -131,6 +149,9 @@ footer{
 	color: #ffffff;
 	background-color: #4d4d4d;
 	text-align:center;
+	position: fixed;
+	left: 0;
+    bottom: 0;
 }
 
 /*Media queries*/
