@@ -1,5 +1,5 @@
 body{	
-	font-size: 15px,1.5,Arial,Helvetica;
+	font-size: 15px,1.5,Arial,Helvetica, Sans-serif;
 	padding: 0;
 	margin: 0;
 	/*background-color: #f4f4f4;*/
@@ -49,11 +49,18 @@ header li{
 
 header #logo{
 	float: left;	
+	font-family: logoFont;
+	font-weight: bold;
+	color:#ff0090;	
+}
+
+header h1{
+	margin:auto;	
 }
 
 header nav{
 	float: right;
-	margin-top: 10px;
+	margin:auto;
 }
 
 /*header .active_page a{
@@ -72,6 +79,13 @@ header a:visited{
 
 header a:active{
 	color: #e8491d;
+}
+
+@font-face{
+	font-family:logoFont;
+	src:url('../font/Gentleman-PersonalUse.ttf');
+	padding:0;
+	margin: 0;		
 }
 
 /*content*/
@@ -138,6 +152,9 @@ header a:active{
 	float: right;
 	color: #0099cc;
 }
+
+
+
 
 
 /*footer*/
